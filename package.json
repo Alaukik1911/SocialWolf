@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.3",
+    "npx": "^3.0.0",
+    "parser": "^0.1.4"
+  }
+}
