@@ -10,7 +10,7 @@ import {
     useTheme,
     useMediaQuery,
   } from "@mui/material";
-import {
+  import {
     Search,
     Message,
     DarkMode,
