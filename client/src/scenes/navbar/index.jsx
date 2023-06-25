@@ -8,8 +8,8 @@ import {
     MenuItem,
     FormControl,
     useTheme,
-    useMediaQuery
-} from "@mui/material";
+    useMediaQuery,
+  } from "@mui/material";
 import {
     Search,
     Message,
@@ -18,7 +18,7 @@ import {
     Notifications,
     Help,
     Menu,
-    Close
+    Close,
 } from "@mui/icons-material";
 import { useDispatch, useSelector } from "react-redux";
 import { setMode, setLogout } from "state";
