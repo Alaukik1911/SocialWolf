@@ -56,7 +56,7 @@ const Navbar = () => {
             },
           }}
         >
-          SociolWolf
+          SocialWolf
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween
