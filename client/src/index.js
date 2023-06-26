@@ -41,3 +41,10 @@ root.render(
     </Provider>
   </React.StrictMode>
 );
+
+
+<html>
+    <head>
+        <title>My Title</title>
+    </head>
+</html>
