@@ -7,7 +7,6 @@ import { useSelector } from "react-redux";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import { themeSettings } from "./theme";
-import {Helmet} from "react-helmet";
 
 function App() {
   const mode = useSelector((state) => state.mode);
@@ -16,11 +15,6 @@ function App() {
 
   return (
     <div className="app">
-       <Helmet>
-                <meta charSet="utf-8" />
-                <title>SocialWolf</title>
-                <link rel="canonical" href="http://mysite.com/example" />
-            </Helmet>
       <BrowserRouter>
         <ThemeProvider theme={theme}>
           <CssBaseline />
